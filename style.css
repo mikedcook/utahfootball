@@ -1,0 +1,93 @@
+body{}
+
+a {
+	cursor: pointer;
+}
+
+.clear{clear:both;}
+
+.countdown{
+	text-align:center;
+	padding: 20px 0;
+}
+
+.countdown .block{
+	font-size: 400%;
+}
+
+.kickoffDate{
+	font-size:140%;
+}
+
+.block{
+	font-family: 'Graduate';
+}
+
+.timer .block{
+	position:relative;
+	top:16px;
+}
+
+.logos{
+	text-align:center;
+	padding-bottom:60px;
+}
+
+.logos div{
+	display:inline;
+}
+
+.logos .location{
+	padding: 50px;
+	position: relative;
+}
+
+.logo img{
+	max-height: 250px;
+}
+
+.logo.utah img{
+	max-height: 300px;
+	position:relative;
+	top:50px;
+}
+.logo.tiny{
+	text-align:center;
+}
+.logo.tiny img{
+	height: 25px;
+	position:relative;
+	top:3px;
+	padding-right:4px;
+}
+.schedule{
+	padding-top:35px;
+}
+table{
+	margin:0 auto;
+	text-align:left;
+}
+.green{color:green;}
+.red{color:red;}
+.container.sub {
+	padding-top: 20px;
+}
+.sub form {
+	max-width: 300px;
+	margin: 0 auto;
+}
+tr.inputForm td {
+	height: 60px;
+}
+.glyphicon{
+	top:0;
+}
+
+
+@media (max-device-width: 480px){
+
+.countdown .block{
+	font-size: 200%;
+}
+
+}/*end max-width 480px*/
